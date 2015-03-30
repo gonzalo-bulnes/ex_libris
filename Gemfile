@@ -13,6 +13,8 @@ gem 'turbolinks', '~> 2.0'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'high_voltage', '~> 2.0'
+
 group :development, :test do
   gem 'byebug', '~> 4.0'
   gem 'web-console', '~> 2.0'
