@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'high_voltage', '~> 2.0'
+gem 'ember-cli-rails', '0.1.13'
 
 group :development, :test do
   gem 'byebug', '~> 4.0'
