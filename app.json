@@ -1,0 +1,25 @@
+{
+  "name": "Ex Libris",
+  "description": "A collaborative library inventory tool.",
+  "keywords": [
+    "library",
+    "collaboration",
+    "books",
+    "collection",
+    "inventory"
+  ],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate db:seed"
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-multi",
+    "LANG": "en_US.UTF-8",
+    "RAILS_ENV": "production",
+    "RACK_ENV": "production",
+    "SECRET_KEY_BASE": "REDACTED",
+    "RAILS_SERVE_STATIC_FILES": "enabled"
+  }
+}

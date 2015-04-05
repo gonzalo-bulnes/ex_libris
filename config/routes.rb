@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  # See https://github.com/rwz/ember-cli-rails#ember-test-suite
+  mount EmberCLI::Engine => "ember-tests" if Rails.env.development?
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
