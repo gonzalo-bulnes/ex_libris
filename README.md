@@ -1,6 +1,8 @@
 Ex Libris
 =========
 
+[![Build Status](https://travis-ci.org/gonzalo-bulnes/ex_libris.svg?branch=master)](https://travis-ci.org/gonzalo-bulnes/ex_libris)
+
 A collaborative library inventory tool.
 
 
