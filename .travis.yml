@@ -3,3 +3,4 @@ rvm:
   - 2.2.0
 before_install:
   - npm install -g app.json
+script: HEROKU_API_KEY=workaround rake
