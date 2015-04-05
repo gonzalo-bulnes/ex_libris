@@ -3,6 +3,35 @@ Ex Libris
 
 A collaborative library inventory tool.
 
+
+Usage
+-----
+
+### Local
+
+```bash
+rackup -p 3000 # see http://localhost:3000
+```
+
+### Heroku
+
+Click the button below to automatically set up Ex Libris in an app running on your Heroku account.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Alternatively, you can manually create a Heroku app and use Git to push and deploy.
+
+
+Development
+-----------
+
+This application deployment is automated through an [`app.json`][app-json-intro] file (see [deploying to heroku][doc-heroku]). The validity of that file is verified as part of the default test suite (`rake`) using the [app.json validator][app-json-validator] provided by the Heroku developers. Run `rake app_json:validate` for help.
+
+  [app-json-intro]: https://blog.heroku.com/archives/2014/5/22/introducing_the_app_json_application_manifest
+  [app-json-validator]: https://github.com/app-json/app.json
+  [doc-heroku]: https://github.com/gonzalo-bulnes/ex_libris/blob/master/README.md#heroku
+
+
 License
 -------
 
